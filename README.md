@@ -84,7 +84,7 @@ users:
     client-key-data: LS0xxx==
 ```
 
-# Adding a SKIN to K9s
+# Adding a skin to K9s
 
 Firs locate where the K9S configuration files are located:
 ```
