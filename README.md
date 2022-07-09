@@ -106,8 +106,6 @@ cd /Users/ivan/Library/Application\ Support/k9s
 ```
 $ ~/Library/Application Support/k9s> ls -la
 
-drwxr-xr-x   4 ivan  ivan   128 Jul  9 11:35 .
-drwx------+ 55 ivan  ivan  1760 Jul  9 07:18 ..
 -rw-r--r--   1 ivan  ivan   967 Jul  9 11:47 config.yml
 -rw-r--r--   1 ivan  ivan  2552 Jul  9 11:35 skin.yml
 ```
