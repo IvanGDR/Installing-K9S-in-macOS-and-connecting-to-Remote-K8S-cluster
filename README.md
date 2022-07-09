@@ -92,8 +92,8 @@ $ k9s info
         \/            \/
 
 Configuration:   /Users/ivan/Library/Application Support/k9s/config.yml
-Logs:            /var/folders/hj/_9d883kn69vbj3yw20w610z40000gp/T/k9s-ivan.garciadelrisco.log
-Screen Dumps:    /var/folders/hj/_9d883kn69vbj3yw20w610z40000gp/T/k9s-screens-ivan.garciadelrisco
+Logs:            /var/folders/hj/_9d883kn69vbj3yw20w610z40000gp/T/k9s-ivan.log
+Screen Dumps:    /var/folders/hj/_9d883kn69vbj3yw20w610z40000gp/T/k9s-screens-ivan
 ```
 
 Download skin .yml file from repository, go to https://github.com/derailed/k9s/tree/master/skins
@@ -106,10 +106,10 @@ cd /Users/ivan/Library/Application\ Support/k9s
 ```
 $ ~/Library/Application Support/k9s> ls -la
 
-drwxr-xr-x   4 ivan  staff   128 Jul  9 11:35 .
-drwx------+ 55 ivan  staff  1760 Jul  9 07:18 ..
--rw-r--r--   1 ivan  staff   967 Jul  9 11:47 config.yml
--rw-r--r--   1 ivan  staff  2552 Jul  9 11:35 skin.yml
+drwxr-xr-x   4 ivan  ivan   128 Jul  9 11:35 .
+drwx------+ 55 ivan  ivan  1760 Jul  9 07:18 ..
+-rw-r--r--   1 ivan  ivan   967 Jul  9 11:47 config.yml
+-rw-r--r--   1 ivan  ivan  2552 Jul  9 11:35 skin.yml
 ```
 
 Finally, launch K9S:
