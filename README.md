@@ -96,7 +96,7 @@ Logs:            /var/folders/hj/_9d883kn69vbj3yw20w610z40000gp/T/k9s-ivan.garci
 Screen Dumps:    /var/folders/hj/_9d883kn69vbj3yw20w610z40000gp/T/k9s-screens-ivan.garciadelrisco
 ```
 
-Download skin .yml file from repository, go to [k9s/skins at master · derailed/k9s · GitHub](https://github.com/derailed/k9s/tree/master/skins)
+Download skin .yml file from repository, go to https://github.com/derailed/k9s
 
 Select the .yml file skin of your choice. Download or copy/paste the content (note the "\" scape notation) within:
 
