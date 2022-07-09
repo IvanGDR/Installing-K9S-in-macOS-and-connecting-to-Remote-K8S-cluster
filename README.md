@@ -43,9 +43,7 @@ users:
     client-key-data: LS0xxx==
 ```
 
-In your local machine, where K9S has been installed.
-
-Create a directory call ".kube" in home directory
+In your local machine, where K9S has been installed, create a directory call ".kube" in home directory
 
 ```
 $ sudo mkdir .kube
