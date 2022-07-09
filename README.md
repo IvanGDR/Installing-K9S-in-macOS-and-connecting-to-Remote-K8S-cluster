@@ -1,7 +1,7 @@
 # Install K9S in MacOS and Connect to Remote Cluster
 
 
-Information:
+Resources:
 
 [K9s - Manage Your Kubernetes Clusters In Style](https://k9scli.io/)
 
