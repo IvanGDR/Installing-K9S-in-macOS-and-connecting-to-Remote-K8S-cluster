@@ -32,7 +32,7 @@ $ cat config
 apiVersion: v1
 clusters:
 - cluster:
-    certificate-authority-data: LS0tLS1CRU==
+    certificate-authority-data: LS0xxx==
     server: https://110.11.33.147:6443
   name: kubernetes
 contexts:
@@ -46,8 +46,8 @@ preferences: {}
 users:
 - name: kubernetes-admin
   user:
-    client-certificate-data: LS0tLS1CRU==
-    client-key-data: LS0tLS1CRUdJ==
+    client-certificate-data: LS0xxx==
+    client-key-data: LS0xxx==
 ```
 
 In your local machine, where K9S has been installed.
