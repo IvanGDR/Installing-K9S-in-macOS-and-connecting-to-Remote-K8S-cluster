@@ -30,7 +30,7 @@ apiVersion: v1
 clusters:
 - cluster:
     certificate-authority-data: LS0tLS1CRU==
-    server: https://10.101.33.147:6443
+    server: https://110.11.33.147:6443
   name: kubernetes
 contexts:
 - context:
