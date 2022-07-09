@@ -122,7 +122,7 @@ $ k9s
 ```
 &nbsp;
 <p align="center">
-<img width="600" height="500" src="https://user-images.githubusercontent.com/67383481/178104204-a5939cf1-1913-4097-b264-96434e2b374c.png">
+<img width="800" height="300" src="https://user-images.githubusercontent.com/67383481/178104204-a5939cf1-1913-4097-b264-96434e2b374c.png">
 </p>
 &nbsp;
 
