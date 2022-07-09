@@ -5,13 +5,6 @@ Resources:
 
 [K9s - Manage Your Kubernetes Clusters In Style](https://k9scli.io/)
 
-[GitHub - derailed/k9s: 🐶 Kubernetes CLI To Manage Your Clusters In Style!](https://github.com/derailed/k9s)
-
-[Configure local kubectl to access remote Kubernetes cluster - DEV Community](https://dev.to/gvelrajan/configure-local-kubectl-to-remote-access-kubernetes-cluster-2g81)
-
-
-[k9s - Best Kubernetes CLI To Manage Your Clusters In Style \| ComputingForGeeks](https://computingforgeeks.com/k9s-kubernetes-cli-to-manage-clusters-in-style/)
-
 &nbsp;
 # Steps:
 
