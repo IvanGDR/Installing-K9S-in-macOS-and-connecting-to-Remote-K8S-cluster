@@ -1,4 +1,4 @@
-# Install K9S in MacOS and Connect to Remote Cluster
+# Install K9S in MacOS and Connect to Remote K8S Cluster
 
 
 Resources:
