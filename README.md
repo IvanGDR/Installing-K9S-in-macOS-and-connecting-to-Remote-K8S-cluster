@@ -98,7 +98,7 @@ Screen Dumps:    /var/folders/hj/_9d883kn69vbj3yw20w610z40000gp/T/k9s-screens-iv
 
 Download skin .yml file from repository, go to https://github.com/derailed/k9s/tree/master/skins
 
-Select the .yml file skin of your choice. Download or copy/paste the content (note the "'\'" scape notation) within:
+Select the .yml file skin of your choice. Download or copy/paste the content (note the \"\"\ scape notation) within:
 
 ```
 cd /Users/ivan/Library/Application\ Support/k9s
