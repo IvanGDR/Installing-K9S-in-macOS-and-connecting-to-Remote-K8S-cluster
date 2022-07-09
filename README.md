@@ -15,7 +15,7 @@ Information:
 Install K9s in MacOs (not kubectl installed)
 ```
 # Via Homebrew
- brew install derailed/k9s/k9s
+$ brew install derailed/k9s/k9s
 ```
 
 Assuming your remote K8s Cluster is set up, go to the control plane node and to the following directory:
