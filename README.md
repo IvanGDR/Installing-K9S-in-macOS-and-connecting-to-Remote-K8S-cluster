@@ -79,7 +79,7 @@ users:
 
 # Adding a skin to K9s
 
-Firs locate where the K9S configuration files are located:
+First locate where the K9S configuration files are located:
 ```
 $ k9s info                                 
 ```
