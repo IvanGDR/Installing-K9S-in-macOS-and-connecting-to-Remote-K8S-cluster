@@ -108,7 +108,7 @@ Select the .yml file skin of your choice. Download or copy/paste the content wit
 cd /Users/ivan/Library/Application\ Support/k9s
 ```
 ```
-$ ~/Library/Application Support/k9s ls -la
+$ ~/Library/Application Support/k9s> ls -la
 
 drwxr-xr-x   4 ivan  staff   128 Jul  9 11:35 .
 drwx------+ 55 ivan  staff  1760 Jul  9 07:18 ..
