@@ -111,7 +111,7 @@ drwx------+ 55 ivan  ivan  1760 Jul  9 07:18 ..
 -rw-r--r--   1 ivan  ivan   967 Jul  9 11:47 config.yml
 -rw-r--r--   1 ivan  ivan  2552 Jul  9 11:35 skin.yml
 ```
-The conig.yml above is part of the K9S installation.
+The conig.yml above is part of the K9S installation. Save your skin using "skin.yml".
 &nbsp;
 
 Finally, launch K9S:
