@@ -113,6 +113,7 @@ drwx------+ 55 ivan  ivan  1760 Jul  9 07:18 ..
 ```
 The conig.yml above is part of the K9S installation.
 &nbsp;
+
 Finally, launch K9S:
 ```
 $ k9s
