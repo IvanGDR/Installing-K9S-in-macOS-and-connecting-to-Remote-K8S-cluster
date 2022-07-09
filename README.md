@@ -65,7 +65,7 @@ apiVersion: v1
 clusters:
 - cluster:
     certificate-authority-data: LS0xxx==
-    server: https://10.101.33.147:6443
+    server: https://110.11.33.147:6443
   name: kubernetes
 contexts:
 - context:
@@ -96,7 +96,7 @@ $ k9s info
 |____|__ \ /____//____  >
         \/            \/
 
-Configuration:   /Users/ivan.garciadelrisco/Library/Application Support/k9s/config.yml
+Configuration:   /Users/ivan/Library/Application Support/k9s/config.yml
 Logs:            /var/folders/hj/_9d883kn69vbj3yw20w610z40000gp/T/k9s-ivan.garciadelrisco.log
 Screen Dumps:    /var/folders/hj/_9d883kn69vbj3yw20w610z40000gp/T/k9s-screens-ivan.garciadelrisco
 ```
@@ -106,7 +106,7 @@ Download skin yml file from repository, go to [k9s/skins at master · derailed/k
 Select the .yml file skin of your choice. Download or copy/paste the content within:
 
 ```
-cd /Users/ivan.garciadelrisco/Library/Application\ Support/k9s
+cd /Users/ivan/Library/Application\ Support/k9s
 ```
 ```
 $ ~/Library/Application Support/k9s ls -la
