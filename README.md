@@ -12,9 +12,8 @@ Information:
 
 [k9s - Best Kubernetes CLI To Manage Your Clusters In Style \| ComputingForGeeks](https://computingforgeeks.com/k9s-kubernetes-cli-to-manage-clusters-in-style/)
 
-Install K9s in MacOs (not kubectl installed)
+Install K9s in MacOs (not kubectl installed) via Homebrew
 ```
-# Via Homebrew
 $ brew install derailed/k9s/k9s
 ```
 
