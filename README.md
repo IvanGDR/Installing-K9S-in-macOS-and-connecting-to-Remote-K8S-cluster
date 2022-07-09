@@ -120,5 +120,9 @@ Finally, launch K9S:
 ```
 $ k9s
 ```
+&nbsp;
+<p align="center">
+<img width="600" height="500" src="https://user-images.githubusercontent.com/67383481/178104204-a5939cf1-1913-4097-b264-96434e2b374c.png">
+</p>
+&nbsp;
 
-![Screen Shot 2022-07-09 at 12.24.54 PM.png](:storage/a61f63bf-fe9d-4089-9073-a85837e9cf34/56bfa1eb.png)
