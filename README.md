@@ -3,7 +3,7 @@
 
 Resources:
 
-[K9s - Manage Your Kubernetes Clusters In Style](https://k9scli.io/)
+https://k9scli.io/
 
 https://github.com/derailed/k9s
 
