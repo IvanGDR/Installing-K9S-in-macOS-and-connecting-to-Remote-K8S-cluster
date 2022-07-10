@@ -169,6 +169,7 @@ $ kubectl config get-contexts
 CURRENT   NAME                          CLUSTER      AUTHINFO           NAMESPACE
 *         kubernetes-admin@kubernetes   kubernetes   kubernetes-admin
 ```
+
 &nbsp;
 Another handy commands
 
