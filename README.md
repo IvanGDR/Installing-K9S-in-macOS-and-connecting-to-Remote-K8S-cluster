@@ -130,7 +130,7 @@ $ k9s
 $ brew install kubectl
 ```
 ```
-kubectl version                       
+$ kubectl version                       
 ```
 ```
 Client Version: version.Info{Major:"1", Minor:"24", GitVersion:"v1.24.2", GitCommit:"f66044f4361b9f1f96f0053dd46cb7dce5e990a8", GitTreeState:"clean", BuildDate:"2022-06-15T14:14:10Z", GoVersion:"go1.18.3", Compiler:"gc", Platform:"darwin/amd64"}
