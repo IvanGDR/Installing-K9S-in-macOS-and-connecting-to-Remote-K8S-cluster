@@ -256,7 +256,7 @@ to clear KUBECONFIG variable
 $ unset KUBECONFIG
 ```
 
-Changing context to "dev-ramp-up"
+Changing context to "dev-ramp-up" using kubectl
 ```
 $ kubectl config use-context dev-ramp-up
 ```
