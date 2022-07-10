@@ -125,6 +125,7 @@ $ k9s
 # Extra Tools - kubectl client managing multi K8S clusters and kubectx+kubens
 
 ## kubectl
+https://kubernetes.io/docs/tasks/access-application-cluster/configure-access-multiple-clusters/
 
 ```
 $ brew install kubectl
