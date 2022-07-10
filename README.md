@@ -79,7 +79,7 @@ users:
 
 # Adding a skin to K9s
 
-First locate where the K9S configuration files are located:
+First find where the K9S configuration files are located:
 ```
 $ k9s info                                 
 ```
@@ -101,7 +101,7 @@ Download skin .yml file from repository, go to https://github.com/derailed/k9s/t
 Select the .yml file skin of your choice. Download or copy/paste the content (note the "\\" scape notation) within:
 
 ```
-cd /Users/ivan/Library/Application\ Support/k9s
+$ cd /Users/ivan/Library/Application\ Support/k9s
 ```
 ```
 $ ~/Library/Application Support/k9s> ls -la
