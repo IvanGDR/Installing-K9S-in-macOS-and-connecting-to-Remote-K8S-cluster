@@ -204,7 +204,7 @@ CURRENT   NAME                          CLUSTER       AUTHINFO           NAMESPA
 *         kubernetes-admin@kubernetes   kubernetes    kubernetes-admin
 ```
 
-To merge kubeconfig files
+To merge kubeconfig files in a view
 ```
 kubectl config view               
 ```
