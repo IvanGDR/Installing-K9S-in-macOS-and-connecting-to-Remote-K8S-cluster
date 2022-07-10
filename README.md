@@ -171,7 +171,7 @@ CURRENT   NAME                          CLUSTER      AUTHINFO           NAMESPAC
 ```
 
 &nbsp;
-### Another kubectl handy commandsfor configuring multi clusters access
+### Another kubectl handy commands for configuring multi clusters access using KUBECONFIG variable
 
 considering the following:
 ```
