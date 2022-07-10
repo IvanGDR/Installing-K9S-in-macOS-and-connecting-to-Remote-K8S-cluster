@@ -122,3 +122,184 @@ $ k9s
 </p>
 &nbsp;
 
+# Extra Tools - kubectl client managing multi K8S clusters and kubectx+kubens
+
+## kubectl
+
+```
+$ brew install kubectl
+```
+```
+kubectl version                       
+```
+```
+Client Version: version.Info{Major:"1", Minor:"24", GitVersion:"v1.24.2", GitCommit:"f66044f4361b9f1f96f0053dd46cb7dce5e990a8", GitTreeState:"clean", BuildDate:"2022-06-15T14:14:10Z", GoVersion:"go1.18.3", Compiler:"gc", Platform:"darwin/amd64"}
+Kustomize Version: v4.5.4
+Server Version: version.Info{Major:"1", Minor:"23", GitVersion:"v1.23.2", GitCommit:"9d142434e3af351a628bffee3939e64c681afa4d", GitTreeState:"clean", BuildDate:"2022-01-19T17:29:16Z", GoVersion:"go1.17.5", Compiler:"gc", Platform:"linux/amd64"}
+```
+
+> kubectl should recognise the cluster set up previously in our K9s installation part
+
+```
+kubectl get pods -n kube-system
+```
+```
+NAME                                                             READY   STATUS    RESTARTS   AGE
+calico-kube-controllers-7bc6547ffb-k76sw                         1/1     Running   0          5d15h
+calico-node-28hqv                                                1/1     Running   0          5d22h
+calico-node-49t4r                                                1/1     Running   0          5d22h
+calico-node-gmsdb                                                1/1     Running   0          5d22h
+coredns-64897985d-fcx7k                                          1/1     Running   0          5d15h
+coredns-64897985d-zbmj7                                          1/1     Running   0          5d15h
+etcd-ip-10-101-33-147.srv101.dsinternal.org                      1/1     Running   0          5d22h
+kube-apiserver-ip-10-101-33-147.srv101.dsinternal.org            1/1     Running   0          5d16h
+kube-controller-manager-ip-10-101-33-147.srv101.dsinternal.org   1/1     Running   0          5d16h
+kube-proxy-6crbh                                                 1/1     Running   0          5d16h
+kube-proxy-bq5v7                                                 1/1     Running   0          5d16h
+kube-proxy-kftjr                                                 1/1     Running   0          5d16h
+kube-scheduler-ip-10-101-33-147.srv101.dsinternal.org            1/1     Running   0          5d16h
+```
+
+furthermore:
+```
+$ kubectl config get-contexts 
+```
+```
+CURRENT   NAME                          CLUSTER      AUTHINFO           NAMESPACE
+*         kubernetes-admin@kubernetes   kubernetes   kubernetes-admin
+```
+
+Another handy commands
+
+considering the following:
+```
+$~/.kube/ ls -la
+```
+```
+-rw — — — — 1 ivan ivan 230 Jul 10 20:19 config
+-rw — — — — 1 ivan ivan 136 Jul 10 20:20 config_2
+-rw — — — — 1 ivan ivan 181 Jul 10 20:20 config_3
+```
+
+Exporting KUBECONFIG
+
+```
+export KUBECONFIG="${HOME}/.kube/config"
+```
+
+Exporting more than one config file at once
+
+```
+export KUBECONFIG="${HOME}/.kube/config:${HOME}/.kube/config_2"
+```
+
+```
+kubectl config get-contexts
+```
+```
+CURRENT   NAME                          CLUSTER       AUTHINFO           NAMESPACE
+          dev-ramp-up                   development   developer          ramp
+*         kubernetes-admin@kubernetes   kubernetes    kubernetes-admin
+```
+
+To merge kubeconfig files
+```
+kubectl config view               
+```
+```
+apiVersion: v1
+clusters:
+- cluster:
+    certificate-authority-data: DATA+OMITTED
+    server: https://10.101.33.147:6443
+  name: kubernetes
+contexts:
+- context:
+    cluster: development
+    namespace: ramp
+    user: developer
+  name: dev-ramp-up
+- context:
+    cluster: kubernetes
+    user: kubernetes-admin
+  name: kubernetes-admin@kubernetes
+current-context: kubernetes-admin@kubernetes
+kind: Config
+preferences: {}
+users:
+- name: kubernetes-admin
+  user:
+    client-certificate-data: REDACTED
+    client-key-data: REDACTED
+```
+
+to append a new cluster configuration file
+
+```
+export KUBECONFIG="${KUBECONFIG}:${HOME}/.kube/config_3"
+```
+
+To check KUBECONFIG variable
+
+```
+$ echo $KUBECONFIG
+```
+```
+/Users/ivan/.kube/config:/Users/ivan/.kube/config_2:/Users/ivan/.kube/config_3
+```
+
+to clear KUBECONFIG variable
+
+```
+$ unset KUBECONFIG
+```
+
+Changing context to "dev-ramp-up"
+```
+$ kubectl config use-context dev-ramp-up
+```
+
+Changing default namespace to "monitoring"
+```
+$ kubectl config set-context --current --namespace=<namespace name>
+```
+
+## kubectx + kubens
+The following will install kubectx and kubens
+```
+$ brew install kubectx
+```
+```
+$ kubectx
+```
+```
+dev-ramp-up
+kubernetes-admin@kubernetes
+```
+
+Change context using kubectx
+```
+$ kubectx <context name>
+```
+
+Working with namespaces
+```
+$ kubens
+```
+```
+default
+dev
+kube-node-lease
+kube-public
+kube-system
+testnamespace
+``````
+
+Change namespaces
+```
+$ kubens <namespace name>
+```
+
+
+
+
