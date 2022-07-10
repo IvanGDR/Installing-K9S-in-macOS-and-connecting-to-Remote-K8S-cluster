@@ -1,4 +1,4 @@
-# Install K9S in MacOS and Connect to Remote K8S Cluster
+# Install K9S in MacOS and Connect to Remote K8S Cluster + kubectl, kubectx and kubens
 
 
 Resources:
