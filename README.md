@@ -142,7 +142,7 @@ Server Version: version.Info{Major:"1", Minor:"23", GitVersion:"v1.23.2", GitCom
 > kubectl should recognise the cluster set up previously in our K9s installation part
 
 ```
-kubectl get pods -n kube-system
+$ kubectl get pods -n kube-system
 ```
 ```
 NAME                                                             READY   STATUS    RESTARTS   AGE
@@ -186,17 +186,17 @@ $~/.kube/ ls -la
 Exporting KUBECONFIG
 
 ```
-export KUBECONFIG="${HOME}/.kube/config"
+$ export KUBECONFIG="${HOME}/.kube/config"
 ```
 
 Exporting more than one config file at once
 
 ```
-export KUBECONFIG="${HOME}/.kube/config:${HOME}/.kube/config_2"
+$ export KUBECONFIG="${HOME}/.kube/config:${HOME}/.kube/config_2"
 ```
 
 ```
-kubectl config get-contexts
+$ kubectl config get-contexts
 ```
 ```
 CURRENT   NAME                          CLUSTER       AUTHINFO           NAMESPACE
@@ -206,7 +206,7 @@ CURRENT   NAME                          CLUSTER       AUTHINFO           NAMESPA
 
 To merge kubeconfig files in a view
 ```
-kubectl config view               
+$ kubectl config view               
 ```
 ```
 apiVersion: v1
@@ -238,7 +238,7 @@ users:
 to append a new cluster configuration file to an already KUBECONFIG variable in place
 
 ```
-export KUBECONFIG="${KUBECONFIG}:${HOME}/.kube/config_3"
+$ export KUBECONFIG="${KUBECONFIG}:${HOME}/.kube/config_3"
 ```
 
 To check KUBECONFIG variable
