@@ -261,7 +261,7 @@ Changing context to "dev-ramp-up" using kubectl
 $ kubectl config use-context dev-ramp-up
 ```
 
-Changing default namespace to "monitoring" using kubectl
+Changing default namespace using kubectl
 ```
 $ kubectl config set-context --current --namespace=<namespace name>
 ```
