@@ -235,7 +235,7 @@ users:
     client-key-data: REDACTED
 ```
 
-to append a new cluster configuration file
+to append a new cluster configuration file to an already KUBECONFIG variable in place
 
 ```
 export KUBECONFIG="${KUBECONFIG}:${HOME}/.kube/config_3"
