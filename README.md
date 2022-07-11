@@ -122,7 +122,7 @@ $ k9s
 </p>
 &nbsp;
 
-# Extra Tools - kubectl client managing multi K8S clusters and kubectx+kubens
+# Extra Tools - kubectl client managing multi K8S clusters, kubectx+kubens and popeye
 
 ## kubectl
 https://kubernetes.io/docs/tasks/access-application-cluster/configure-access-multiple-clusters/
