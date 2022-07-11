@@ -1,4 +1,4 @@
-# Install K9S in MacOS and Connect to Remote K8S Cluster + kubectl, kubectx and kubens
+# Install K9S in MacOS and Connect to Remote K8S Cluster + kubectl, kubectx, kubens and popeye
 
 
 Resources:
@@ -302,6 +302,20 @@ Change namespaces using kubens
 $ kubens <namespace name>
 ```
 
+## popeye
 
+https://github.com/derailed/popeye
 
+```
+brew install derailed/popeye/popeye
+```
 
+```
+$ popeye
+```
+
+&nbsp;
+<p align="center">
+<img width="800" height="250" src="https://user-images.githubusercontent.com/67383481/178202683-8785b674-3cf2-4c04-a411-70fb3a073877.png">
+</p>
+&nbsp;
