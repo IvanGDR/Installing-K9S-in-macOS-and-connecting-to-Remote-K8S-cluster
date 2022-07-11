@@ -307,7 +307,7 @@ $ kubens <namespace name>
 https://github.com/derailed/popeye
 
 ```
-brew install derailed/popeye/popeye
+$ brew install derailed/popeye/popeye
 ```
 
 ```
