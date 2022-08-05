@@ -153,12 +153,12 @@ calico-node-gmsdb                                                1/1     Running
 coredns-64897985d-fcx7k                                          1/1     Running   0          5d15h
 coredns-64897985d-zbmj7                                          1/1     Running   0          5d15h
 etcd-ip-10-101-33-147.srv101.dsinternal.org                      1/1     Running   0          5d22h
-kube-apiserver-ip-10-101-33-147.srv101.dsinternal.org            1/1     Running   0          5d16h
+kube-apiserver-ip-110-11-33-147.srv101.dsinternal.org            1/1     Running   0          5d16h
 kube-controller-manager-ip-10-101-33-147.srv101.dsinternal.org   1/1     Running   0          5d16h
 kube-proxy-6crbh                                                 1/1     Running   0          5d16h
 kube-proxy-bq5v7                                                 1/1     Running   0          5d16h
 kube-proxy-kftjr                                                 1/1     Running   0          5d16h
-kube-scheduler-ip-10-101-33-147.srv101.dsinternal.org            1/1     Running   0          5d16h
+kube-scheduler-ip-110-11-33-147.srv101.dsinternal.org            1/1     Running   0          5d16h
 ```
 
 furthermore:
@@ -213,7 +213,7 @@ apiVersion: v1
 clusters:
 - cluster:
     certificate-authority-data: DATA+OMITTED
-    server: https://10.101.33.147:6443
+    server: https://110.11.33.147:6443
   name: kubernetes
 contexts:
 - context:
